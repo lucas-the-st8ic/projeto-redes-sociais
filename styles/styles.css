@@ -1,28 +1,21 @@
 @charset "UTF-8";
 
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-html, body {
+html,body {
     height: 100vh;
     width: 100vw;
     background-color: black;
 }
 
-body {
-    background-image: url(../images/fundo-madeira.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-    background-attachment: fixed;
-}
-
 main {
-    position: relative;
     height: 100vh;
+    position: relative;
+    background-color: green;
 }
 
 section#telefone {
@@ -31,16 +24,8 @@ section#telefone {
     left: 50%;
     transform: translate(-50%, -50%);
 
-    height: 627px;
+    height: 573px;
     width: 311px;
-    background-image: url(../images/frame-iphone.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 12em;
+    border-radius: 5px;
+    background: blue url(../images/frame-iphone.png) no-repeat;
 }
-
-section#btn-redes-sociais {
-    margin: 0px;
-    padding: 0px;
-}
-
