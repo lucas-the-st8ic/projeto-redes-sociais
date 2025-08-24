@@ -29,7 +29,7 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
+    margin: 2px;
     height: 475px;
     width: 236px;
     border-radius: 5px;
